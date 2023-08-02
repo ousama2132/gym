@@ -14,12 +14,14 @@ header{
     z-index: 99;
     width:100%;
     
+    
 }
 
 
 header a {
     text-decoration: none;
     color:whitesmoke;
+    
 
 }
 
@@ -27,6 +29,7 @@ h1{
     font-family: 'Oswald', sans-serif;
     text-transform:uppercase;
     letter-spacing: 3px;
+    text-align: center;
 
 }
 
@@ -73,12 +76,22 @@ main{
     background-color:wheat;
     /* makes main element take up any surplus space*/
     flex: 1 0 auto;
+    margin-top:97px;
+
 }
 footer{
     background-color: #000000;
     color:white;
 }
+/*Tablets and larger - 768px + */
+@media screen and (min width:768px) {
+    nav{
+        display:block;
+        position:relative;
+        width:fit-content;
 
+    }
 
+}
 
 
