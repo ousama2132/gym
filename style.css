@@ -26,7 +26,7 @@ header a {
 }
 
 h1{
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     text-transform:uppercase;
     letter-spacing: 3px;
     text-align: center;
@@ -79,19 +79,52 @@ main{
     margin-top:97px;
 
 }
+
 footer{
     background-color: #000000;
-    color:white;
+    color:aliceblue;
 }
-/*Tablets and larger - 768px + */
-@media screen and (min width:768px) {
-    nav{
-        display:block;
-        position:relative;
-        width:fit-content;
 
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        align-content: center;
+        
+}
+
+    #logo {
+        font-size: 150%;
+        line-height: 20px;
+        margin: 0 0.5rem;
     }
 
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 90px;
+    }
 }
 
-
+/*when hovering over nv its highlighted */
+@media screen and (min-width:992px) {
+    #menu > a {
+        box-shadow: inset 0 0 0 0 #ffffff;
+        color: #000000;
+    }
+    a:hover {
+        box-shadow: inset 100px 0 0 0 #ffffff;
+        color: #000000;
+    }
+    /*added hover to header as without it the header disapears*/
+    h1:hover {
+        box-shadow: inset 100px 0 0 0 #000000;
+        color: #ffffff ;
+    }
+}
