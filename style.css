@@ -17,13 +17,12 @@ header{
 
 header a {
     text-decoration: none;
-    color:whitesmoke;
+    color:blanchedalmond;
     
 
 }
 
 h1{
-    font-family: 'Helvetica', sans-serif;
     text-transform:uppercase;
     letter-spacing: 3px;
     text-align: center;
@@ -56,19 +55,18 @@ img {
 }
 
 .underline-1{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid blanchedalmond;
 }
 
-body{
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif ;
+    font-family: 'Lato', sans-serif;
 }
 
 main{
-    background-color:wheat;
     /* makes main element take up any surplus space*/
     flex: 1 0 auto;
     margin-top:97px;
@@ -80,6 +78,24 @@ main{
     height:900px;
     width:100%;
     background : url(image/home.jpeg) no-repeat center center/cover;
+}
+
+h2 {
+    
+    text-align: center;
+    color:blanchedalmond;
+
+}
+
+.begin{
+    font-size: 200%;
+    position: absolute;
+    width:100%;
+    padding-top: 300px;
+    color:blanchedalmond;
+    letter-spacing: 1px;
+    font-family: 'stencil std', fantasy;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 }
 
 footer {
@@ -103,7 +119,7 @@ footer {
 
 .url a {
     letter-spacing: relative;
-    color: #ffffff;
+    color: blanchedalmond;
 }
 
 
@@ -135,16 +151,16 @@ footer {
 /*when hovering over nv its highlighted */
 @media screen and (min-width:992px) {
     #menu > a {
-        box-shadow: inset 0 0 0 0 #ffffff;
+        box-shadow: inset 0 0 0 0 blanchedalmond;
         color: #000000;
     }
     a:hover {
-        box-shadow: inset 100px 0 0 0 #ffffff;
+        box-shadow: inset 100px 0 0 0 blanchedalmond;
         color: #000000;
     }
     /*added hover to header as without it the header disapears*/
     h1:hover {
         box-shadow: inset 100px 0 0 0 #000000;
-        color: #ffffff ;
+        color: blanchedalmond ;
     }
 }
