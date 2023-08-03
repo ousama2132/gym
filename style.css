@@ -80,11 +80,18 @@ main{
 
 }
 
-footer{
-    background-color: #000000;
-    color:aliceblue;
+.url{
+    list-style-type: none;
+    font-size: 150%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
 }
 
+.url a {
+    letter-spacing: 10px;
+    color: #ffffff;
+}
 
 
 /* Media query: tablets and larger (768px and up) */
