@@ -63,7 +63,6 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
 }
 
 main{
@@ -96,6 +95,68 @@ h2 {
     letter-spacing: 1px;
     font-family: 'stencil std', fantasy;
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+}
+
+#banner2 {
+    height: 900px;
+    width: 100%;
+    background: url(image/home2.jpeg) no-repeat center center/cover;
+}
+
+h2 {
+
+    text-align: center;
+    color: blanchedalmond;
+
+}
+
+.begin2 {
+    font-size: 200%;
+    position: absolute;
+    width: 100%;
+    padding-top:100px;
+    color: blanchedalmond;
+    letter-spacing: 1px;
+    font-family: 'stencil std', fantasy;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+}
+
+#adult{
+    text-align: center;
+    font-size: 100%;
+    position: absolute;
+    width: 100%;
+    padding-top: 400px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+
+}
+
+.left{
+    text-align:left;
+}
+#student{
+    text-align: left;
+    font-size: 100%;
+    position: absolute;
+    width: 100%;
+    padding-top: 200px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+}
+
+.right{
+    text-align: right;
+}
+
+#senior {
+    text-align: right;
+    font-size: 100%;
+    position: absolute;
+    width: 100%;
+    padding-top: 600px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
 }
 
 footer {
