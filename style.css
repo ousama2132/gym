@@ -165,7 +165,7 @@ h2 {
 
 /*banner and text for about*/
 #about-banner {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-color:#000;
 }
@@ -178,7 +178,7 @@ h2 {
 }
 
 /* styling text for about title */
-.about-begin {
+#about-begin {
     font-size: 200%;
     position: absolute;
     width: 100%;
@@ -195,27 +195,38 @@ h2 {
     font-size: 100%;
     position: absolute;
     width: 100%;
-    padding-top: 400px;
+    padding-top: 300px;
     color: blanchedalmond;
     letter-spacing: 2px;
     text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 
 }
 
-/*banner and text for about*/
 #about-banner2 {
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background-color:burlywood;
+    background-color: blanchedalmond;
 }
 
-/* styling text for about title */
-.about-begin2 {
+/*positioning the location title*/
+#about-begin2 {
+    font-size: 200%;
+    position: absolute;
+    width: 100%;
+    padding-top: 150px;
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'stencil std', fantasy;
+
+}
+
+/*positioning the times title*/
+#about-begin3 {
     font-size: 200%;
     position: absolute;
     width: 100%;
     padding-top: 300px;
-    color:black;
+    color: black;
     letter-spacing: 1px;
     font-family: 'stencil std', fantasy;
 
@@ -227,38 +238,47 @@ h2 {
     font-size: 100%;
     position: absolute;
     width: 100%;
+    padding-top: 200px;
+    color: black;
+    letter-spacing: 2px;
+
+
+}
+
+/*styling the times*/
+#about-text3 {
+    text-align: left;
+    font-size: 100%;
+    position: absolute;
+    width: 100%;
+    padding-top: 400px;
+    color: black;
+    letter-spacing: 2px;
+
+}
+
+
+#about-text4 {
+    text-align: center;
+    font-size: 100%;
+    position: absolute;
+    width: 100%;
     padding-top: 500px;
     color: black;
     letter-spacing: 2px;
-    
-
 }
 
 
-
-footer {
-    position:fixed;
-    bottom:0;
+#about-text5 {
+    text-align: right;
+    font-size: 100%;
+    position: absolute;
     width: 100%;
-    background-color: #000000;
-    height: 60px;
-    padding: 20px 50px;
-        
-}
-/* FOOTER */
-.url{
-    list-style-type: none;
-    font-size: 150%;
-    align-items: center;
-    display:flex;
-    justify-content: center;
-    justify-content: space-evenly;
+    padding-top: 600px;
+    color: black;
+    letter-spacing: 2px;
 }
 
-.url a {
-    letter-spacing: relative;
-    color: blanchedalmond;
-}
 
 .login {
     display:flex;
@@ -284,6 +304,30 @@ footer {
     color: wheat;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    height: 60px;
+    padding: 20px 50px;
+
+}
+
+/* fixed FOOTER */
+.url {
+    list-style-type: none;
+    font-size: 150%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.url a {
+    letter-spacing: relative;
+    color: blanchedalmond;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
