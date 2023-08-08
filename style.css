@@ -284,13 +284,13 @@ h2 {
     display:flex;
     justify-content: center;
     align-items: center;
-    background: url(image/dark-gym.jpg) no-repeat center center/cover;
+    background-color:blanchedalmond;
     min-height:70vh;
     width:100%;
 
 }
 .div-login {
-    color: blanchedalmond;
+    color: black;
 }
 
 .div-login .input {
