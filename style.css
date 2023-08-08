@@ -72,9 +72,9 @@ main{
 
 }
 
-/*Banner*/
+/*Begin with roza*/
 #banner {
-    height:900px;
+    height:500px;
     width:100%;
     background : url(image/home.jpeg) no-repeat center center/cover;
 }
@@ -86,19 +86,21 @@ h2 {
 
 }
 
+/*text details*/
 .begin{
     font-size: 200%;
     position: absolute;
     width:100%;
-    padding-top: 300px;
+    padding-top: 200px;
     color:blanchedalmond;
     letter-spacing: 1px;
     font-family: 'stencil std', fantasy;
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 }
 
+/*prices*/
 #banner2 {
-    height: 900px;
+    height: 500px;
     width: 100%;
     background: url(image/home2.jpeg) no-repeat center center/cover;
 }
@@ -111,10 +113,10 @@ h2 {
 }
 
 .begin2 {
-    font-size: 200%;
+    font-size: 150%;
     position: absolute;
     width: 100%;
-    padding-top:100px;
+    padding-top:50px;
     color: blanchedalmond;
     letter-spacing: 1px;
     font-family: 'stencil std', fantasy;
@@ -123,10 +125,10 @@ h2 {
 
 #adult{
     text-align: center;
-    font-size: 100%;
+    font-size: 80%;
     position: absolute;
     width: 100%;
-    padding-top: 400px;
+    padding-top: 200px;
     color: blanchedalmond;
     letter-spacing: 2px;
 
@@ -137,10 +139,10 @@ h2 {
 }
 #student{
     text-align: left;
-    font-size: 100%;
+    font-size: 80%;
     position: absolute;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 100px;
     color: blanchedalmond;
     letter-spacing: 2px;
 }
@@ -151,19 +153,21 @@ h2 {
 
 #senior {
     text-align: right;
-    font-size: 100%;
+    font-size: 80%;
     position: absolute;
     width: 100%;
-    padding-top: 600px;
+    padding-top: 300px;
     color: blanchedalmond;
     letter-spacing: 2px;
 }
 
+
+
 /*banner and text for about*/
 #about-banner {
-    height: 800px;
+    height: 600px;
     width: 100%;
-    background: url(image/about.jpeg) no-repeat center center/cover;
+    background-color:#000;
 }
 
 h2 {
@@ -178,7 +182,7 @@ h2 {
     font-size: 200%;
     position: absolute;
     width: 100%;
-    padding-top: 300px;
+    padding-top: 150px;
     color: blanchedalmond;
     letter-spacing: 1px;
     font-family: 'stencil std', fantasy;
@@ -191,24 +195,46 @@ h2 {
     font-size: 100%;
     position: absolute;
     width: 100%;
-    padding-top: 500px;
+    padding-top: 400px;
     color: blanchedalmond;
     letter-spacing: 2px;
     text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 
 }
 
-/*Loction icon*/
-#location {
+/*banner and text for about*/
+#about-banner2 {
+    height: 600px;
+    width: 100%;
+    background-color:burlywood;
+}
+
+/* styling text for about title */
+.about-begin2 {
+    font-size: 200%;
+    position: absolute;
+    width: 100%;
+    padding-top: 300px;
+    color:black;
+    letter-spacing: 1px;
+    font-family: 'stencil std', fantasy;
+
+}
+
+/* styling text for about paragraph */
+#about-text2 {
     text-align: center;
     font-size: 100%;
     position: absolute;
     width: 100%;
-    padding-top: 100px;
-    color: blanchedalmond;
+    padding-top: 500px;
+    color: black;
     letter-spacing: 2px;
+    
 
 }
+
+
 
 footer {
     position:fixed;
@@ -238,7 +264,7 @@ footer {
     display:flex;
     justify-content: center;
     align-items: center;
-    background: url(image/home.jpeg);
+    background: url(image/dark-gym.jpg) no-repeat center center/cover;
     min-height:70vh;
     width:100%;
 
