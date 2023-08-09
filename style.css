@@ -29,7 +29,7 @@ h1 {
 
 }
 
-.roza {
+img {
     width: 50px;
 }
 
@@ -79,12 +79,16 @@ main {
     background: url(image/home.jpeg) no-repeat center center/cover;
 }
 
+
 h2 {
+
 
     text-align: center;
     color: blanchedalmond;
 
+
 }
+
 
 /*text details*/
 .begin {
@@ -98,74 +102,6 @@ h2 {
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 }
 
-/*prices*/
-#banner2 {
-    height: 900px;
-    width: 100%;
-    background: url(image/home2.jpeg) no-repeat center center/cover;
-}
-
-h2 {
-
-    text-align: center;
-    color: blanchedalmond;
-
-}
-
-.begin2 {
-    font-size: 150%;
-    position: absolute;
-    width: 100%;
-    padding-top: 50px;
-    color: blanchedalmond;
-    letter-spacing: 1px;
-    font-family: 'stencil std', fantasy;
-    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
-}
-
-/* IMAGE TEXT OVERLAY*/
-
-/*wrapper*/
-
-
-.wrapper {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.image {
-    width: 500px;
-    position: relative;
-}
-
-.text-overlay{
-    width: 100%;
-    display: block;
-    margin:auto;
-}
-
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0, 6s;
-
-}
-
-
-
-.content:hover{
-    opacity: 1;
-
-}
 
 /*banner and text for about*/
 #about-banner {
