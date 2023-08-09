@@ -114,8 +114,15 @@ p{
     font-weight: 300;
     line-height: 22px;
     padding:10px;
-    
 }
+
+.package{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
 
 /*banner and text for about*/
 #about-banner {
