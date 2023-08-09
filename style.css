@@ -4,57 +4,57 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: #000000;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width:100%;
-    
-    
+    width: 100%;
+
+
 }
 
 
 header a {
     text-decoration: none;
-    color:blanchedalmond;
-    
+    color: blanchedalmond;
+
 
 }
 
-h1{
-    text-transform:uppercase;
+h1 {
+    text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
 
 }
 
-img {
-    width:50px;
+.roza {
+    width: 50px;
 }
 
 
-.nav-links{
+.nav-links {
     /* occupies all the space in the row*/
-    flex:1;
-    text-align:center;
-    top:0;
+    flex: 1;
+    text-align: center;
+    top: 0;
 }
 
-.nav-links ul li{
-    display:inline-block;
-    padding:8px 12px;
-    position:relative;
+.nav-links ul li {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
 }
 
-#menu{
+#menu {
     /*removes bulletpoints ect.. */
-    list-style-type:none;
+    list-style-type: none;
     letter-spacing: 4px;
     font-size: 110%;
 }
 
-.underline-1{
+.underline-1 {
     border-bottom: 1px solid blanchedalmond;
 }
 
@@ -65,34 +65,34 @@ body {
     color: #3a3a3a;
 }
 
-main{
+main {
     /* makes main element take up any surplus space*/
     flex: 1 0 auto;
-    margin-top:97px;
+    margin-top: 97px;
 
 }
 
 /*Begin with roza*/
 #banner {
-    height:800px;
-    width:100%;
-    background : url(image/home.jpeg) no-repeat center center/cover;
+    height: 500px;
+    width: 100%;
+    background: url(image/home.jpeg) no-repeat center center/cover;
 }
 
 h2 {
-    
+
     text-align: center;
-    color:blanchedalmond;
+    color: blanchedalmond;
 
 }
 
 /*text details*/
-.begin{
+.begin {
     font-size: 200%;
     position: absolute;
-    width:100%;
-    padding-top: 350px;
-    color:blanchedalmond;
+    width: 100%;
+    padding-top: 200px;
+    color: blanchedalmond;
     letter-spacing: 1px;
     font-family: 'stencil std', fantasy;
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
@@ -100,7 +100,7 @@ h2 {
 
 /*prices*/
 #banner2 {
-    height: 900px;
+    height: 500px;
     width: 100%;
     background: url(image/home2.jpeg) no-repeat center center/cover;
 }
@@ -116,32 +116,29 @@ h2 {
     font-size: 150%;
     position: absolute;
     width: 100%;
-    padding-top:50px;
+    padding-top: 50px;
     color: blanchedalmond;
     letter-spacing: 1px;
     font-family: 'stencil std', fantasy;
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 }
 
-/*creating background for deals*/
-#adult{
-    background: #000;
-    margin: 0 auto;
+#adult {
     text-align: center;
-    max-width: 330px;
-    padding: 50px 30px;
-    border-radius: 5px;
-    font-size: 100%;
+    font-size: 80%;
+    position: absolute;
+    width: 100%;
+    padding-top: 200px;
     color: blanchedalmond;
-    letter-spacing: 3px;
-    
+    letter-spacing: 2px;
 
 }
 
-.left{
-    text-align:left;
+.left {
+    text-align: left;
 }
-#student{
+
+#student {
     text-align: left;
     font-size: 80%;
     position: absolute;
@@ -151,7 +148,7 @@ h2 {
     letter-spacing: 2px;
 }
 
-.right{
+.right {
     text-align: right;
 }
 
@@ -171,7 +168,7 @@ h2 {
 #about-banner {
     height: 700px;
     width: 100%;
-    background-color:#000;
+    background-color: #000;
 }
 
 h2 {
@@ -285,14 +282,15 @@ h2 {
 
 
 .login {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color:blanchedalmond;
-    min-height:70vh;
-    width:100%;
+    background-color: blanchedalmond;
+    min-height: 70vh;
+    width: 100%;
 
 }
+
 .div-login {
     color: black;
 }
@@ -338,8 +336,8 @@ footer {
         position: relative;
         width: fit-content;
         align-content: center;
-        
-}
+
+    }
 
     #logo {
         font-size: 150%;
@@ -356,17 +354,19 @@ footer {
 
 /*when hovering over nv its highlighted */
 @media screen and (min-width:992px) {
-    #menu > a {
+    #menu>a {
         box-shadow: inset 0 0 0 0 blanchedalmond;
         color: #000000;
     }
+
     a:hover {
         box-shadow: inset 100px 0 0 0 blanchedalmond;
         color: #000000;
     }
+
     /*added hover to header as without it the header disapears*/
     h1:hover {
         box-shadow: inset 100px 0 0 0 #000000;
-        color: blanchedalmond ;
+        color: blanchedalmond;
     }
 }
