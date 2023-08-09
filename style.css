@@ -74,7 +74,7 @@ main{
 
 /*Begin with roza*/
 #banner {
-    height:500px;
+    height:800px;
     width:100%;
     background : url(image/home.jpeg) no-repeat center center/cover;
 }
@@ -91,7 +91,7 @@ h2 {
     font-size: 200%;
     position: absolute;
     width:100%;
-    padding-top: 200px;
+    padding-top: 350px;
     color:blanchedalmond;
     letter-spacing: 1px;
     font-family: 'stencil std', fantasy;
@@ -100,7 +100,7 @@ h2 {
 
 /*prices*/
 #banner2 {
-    height: 500px;
+    height: 900px;
     width: 100%;
     background: url(image/home2.jpeg) no-repeat center center/cover;
 }
@@ -123,14 +123,18 @@ h2 {
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 }
 
+/*creating background for deals*/
 #adult{
+    background: #000;
+    margin: 0 auto;
     text-align: center;
-    font-size: 80%;
-    position: absolute;
-    width: 100%;
-    padding-top: 200px;
+    max-width: 330px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    font-size: 100%;
     color: blanchedalmond;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    
 
 }
 
