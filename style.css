@@ -333,6 +333,11 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 90px;
     }
+
+    .package {
+        flex-direction: column;
+    
+    }
 }
 
 /*when hovering over nv its highlighted */
@@ -353,5 +358,3 @@ footer {
             color: blanchedalmond;
         }
 }
-
-@media(max-)
