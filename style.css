@@ -106,6 +106,7 @@ h2 {
     margin:auto;
     text-align: center;
     padding-top:100px;
+    background-color: blanchedalmond;
 }
 
 p{
@@ -122,6 +123,18 @@ p{
     justify-content: space-between;
 }
 
+h3 {
+    color:blanchedalmond;
+}
+
+.package-1{
+    flex-basis: 31%;
+    background-color:black;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing:border-box;
+}
 
 
 /*banner and text for about*/
