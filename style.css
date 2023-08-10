@@ -180,9 +180,29 @@ h3 {
 }
 
 .room p{
-    padding-bottom:100px;
+    padding-bottom:200px;
 }
 
+.room p {
+    color: blanchedalmond;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.room:hover {
+    box-shadow: 0 0 30px 0 rgb(0, 0, 0);
+
+
+}
 
 /*banner and text for about*/
 #about-banner {
@@ -390,6 +410,7 @@ footer {
     .package {
         flex-direction: column;
     }
+
 }
 
 @media screen and (max-width:460px) {
