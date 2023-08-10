@@ -115,7 +115,6 @@ main {
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    background: url(image/beige.jpeg) no-repeat center center/cover;
 }
 
 p {
@@ -151,6 +150,9 @@ h3 {
 
 
 }
+
+/* third part of home */
+
 
 
 /*banner and text for about*/
