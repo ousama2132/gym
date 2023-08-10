@@ -30,6 +30,20 @@ h1 {
 
 }
 
+h2 {
+    text-align: center;
+    color: blanchedalmond;
+}
+
+h3 {
+    color: blanchedalmond;
+}
+
+h4 {
+    color:black;
+    font-size: 200%;
+}
+
 img {
     width: 50px;
 }
@@ -80,11 +94,6 @@ main {
     background: url(image/home.jpeg) no-repeat center center/cover;
 }
 
-
-h2 {
-    text-align: center;
-    color: blanchedalmond;
-}
 
 
 /*text details*/
@@ -151,12 +160,6 @@ h3 {
     background-color: #000;
 }
 
-h2 {
-
-    text-align: center;
-    color: blanchedalmond;
-
-}
 
 /* styling text for about title */
 #about-begin {
@@ -344,9 +347,11 @@ footer {
         color: #000000;
     }
 
-    /*added hover to header as without it the header disapears*/
-    h1:hover {
-        box-shadow: inset 100px 0 0 0 #000000;
-        color: blanchedalmond;
-    }
+        /*added hover to header as without it the header disapears*/
+        h1:hover {
+            box-shadow: inset 100px 0 0 0 #000000;
+            color: blanchedalmond;
+        }
 }
+
+@media(max-)
