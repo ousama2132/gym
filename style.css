@@ -279,8 +279,10 @@ form {
     text-align: center;
 }
 
-form h1 {
+form h4 {
     margin-bottom: 70px;
+    font-size: 40px;
+
 }
 
 
@@ -300,11 +302,22 @@ button{
     width: 350px;
     height: 40px;
     font-size: 20px;
-    color: blanchedalmond;
-    background-color: black;
     border: none;
     outline: none;
     margin-top: 30px;
+}
+
+button {
+    box-shadow: inset 0 0 0 0 black;
+    color: blanchedalmond;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+button:hover {
+    box-shadow: inset 100px 0 0 0 black;
+    color: blanchedalmond;
+    opacity: 1;
 }
 
 /* fixed FOOTER */
