@@ -337,7 +337,7 @@ button:hover {
 }
 
 .url a {
-    letter-spacing: relative;
+    letter-spacing: 2px;
     color: blanchedalmond;
 }
 
@@ -414,7 +414,7 @@ button:hover {
     }
     
     .url a {
-        letter-spacing: relative;
+        letter-spacing: 2px;
         color: blanchedalmond;
     }
 }
