@@ -27,14 +27,14 @@ A minimalist design, Prices and location. I am giving the website three distinct
 I created wireframes to showcase my project in a simplistic manner using Lucidchart. I will be creating a mobile and desktop screen size wireframe
 
 ## Mobile
-- [Home]()
-- [About]()
-- [Sign Up]()
+- [Home](wireframe/phone_home.png)
+- [About](wireframe/phone_about.png)
+- [Sign Up](wireframe/phone-signup.png)
 
 ## Desktop
 - [Home](wireframe/desktop_home.png)
-- [About]()
-- [Sign Up]()
+- [About](wireframe/desktop_about.png)
+- [Sign Up](wireframe/desktop_signup.png)
 
 # Color
 I found that blanchedalmond as the text while the background being black was my go too for this website, to gain more contrast i started adding white as the further background for the black making the text stand out even more. I decided to use color contrast https://shorturl.at/eFIPZ to see combinations.
@@ -112,29 +112,28 @@ I also decide to redesign the times to be under the prices instead of the about 
 ![alt-text](Read_image/lighthouse.png)
 
 ## Validator testing 
-- I had used the w3s validator to check if there were any issues with my website.
+- I had used the w3s validator to check if there were any issues with my website, I only foud 1 minor issue which was easily fixed .
 
-- I had used the Jigsaw validator to check if there were any issues with my website.
+![alt-text](Read_image/w3s_error.png)
+![alt-text](Read_image/w3s_solution.png)
+
+- I had used the Jigsaw validator to check if there were any issues with my website, Honly having 2 minor issues took less then a minute it fix.
+
+![alt-text](Read_image/jigsaw_error.png)
+![alt-text](Read_image/jigsaw_solution.png)
 
 ## Users wants 
 
-## User wants
-## Expected Results
-## Pass
-As a user, I want to see the prices shown
+Colons can be used to align columns.
+
+| User wants        |      Expected Results      | Pass |
+| ------------- |:-------------:| -----:|
+| As a user, I want to see the prices shown|When going on the website and the user scrolls past the hero image they will be immediately shown prices with color contrast so its well visible | Yes |
+|As a user, I want to see the times Shown    | When going on the website and the user scrolls past the hero image and below the price they will be immediately shown times with color contrast so its well visible just as the prices     |   Yes|
+|As a user, I want to see the location shown | The location is on the about section very visible as it can still be seen below the about us part. |    Yes |
 
 
-When going on the website and the user scrolls past the hero image they will be immediately shown prices with color contrast so its well visible 
-Yes
-As a user, I want to see the times Shown
-When going on the website and the user scrolls past the hero image and below the price they will be immediately shown times with color contrast so its well visible just as the prices
-Yes
-As a user, I want to see the location shown
-The location is on the about section very visible as it can still be seen below the about us part.
-Yes
-
-
-- Unfixed bugs/Short-Comings
+- Short-Comings
 The shortcomings of my website would be if I put the text under the images more visually appealing such as if you hovered over the image you could see the text appear which would improve the experience of the user. .
 
 # Credit
@@ -147,6 +146,6 @@ https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm.
 - Youtube -https://youtu.be/hr4JiDr7Aec, https://youtu.be/oYRda7UtuhA.
 - Icons- https://fontawesome.com/
 - Screenshots at the top from https://ui.dev/amiresponsive
-- WireFrames from https://lucid.app/
+- WireFrames from https://balsamiq.cloud/
 - Color contrast from https://contrast-grid.eightshapes.com/
 - Help to write the readme https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers
